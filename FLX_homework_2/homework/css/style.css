@@ -1,0 +1,208 @@
+/* Figure 1  */
+@media print {
+    body {
+        background: transparent;
+        padding-top: 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .tm-sidebar, #about{
+        display: none;
+    }
+    section:not(:first-of-type){
+        display: none;
+    }
+    .flex-2-col {
+        display: flex;
+        align-items: center;
+    }
+    img[alt="epam-mexico"] {
+        margin-top: 25px;
+        margin-left: 20px;
+        width: 290px;
+        height: 180px;
+    }
+    .padding-medium, .tm-banner{
+        padding: 0;
+    }
+    .tm-banner {
+        margin-bottom: 90px;
+    }
+    p:first-letter {
+        font-size: 30px;
+        color: #87CEFA;
+    }
+    .blocks .tm-team-description-container .tm-section-title{
+        margin-top: 0;
+    }
+    .tm-team-description-container .tm-section-title {
+         margin-top: 220px;
+         margin-left: 15px;
+     }
+    .tm-content-box .tm-team-description-container{
+        width: 400px;
+    }
+    .tm-team-description-container .tm-section-title {
+        margin-top: 0;
+    }
+    .tm-team-description-container>.tm-section-title {
+        color: blue;
+    }
+    h2 + p {
+        font-style: italic;
+    }
+    h2 ~ p {
+        text-indent: 1em;
+        line-height: 2rem;
+    }
+}
+@media screen {
+    /* Figure 2  */
+    .box-bg h2:hover {
+        background-color: #2aabd2;
+        color: #eaf6ea;
+        transition-duration: 0.8s;
+    }
+    /*Figure 3 */
+    p:first-letter {
+        font-size: 30px;
+        color: #87CEFA;
+    }
+    /*Figure 4 */
+    .tm-content-box, .tm-banner, .tm-sidebar{
+        box-shadow: 0px 0px 10px 5px #898989;
+    }
+    .tm-banner {
+        padding: 0;
+        border: 30px solid #eaeaea;
+    }
+    .blocks .tm-content-box {
+        box-shadow: none;
+    }
+    /*Figure 5 */
+    .tm-content-box {
+        position: relative;
+    }
+    .tm-content-box::before {
+        content:"";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 25px solid #2aabd2;
+        border-right: 160px solid transparent;
+    }
+    /*Figure 6 */
+    .carousel-content .tm-section-title {
+        color: #dcdcdc;
+        letter-spacing: 5px;
+    }
+    /*Figure 7 */
+    h2 + p {
+        font-style: italic;
+    }
+    /*Fix picture epam-mexico*/
+    .tm-content-box.flex-2-col:first-child {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    img[alt="epam-mexico"] {
+        width: 100%;
+    }
+    /*Figure 8 */
+    h2 ~ p {
+        text-indent: 1em;
+        line-height: 2rem;
+    }
+    /*Figure 9 */
+    .padding-medium ol li a {
+        color: black;
+    }
+    .padding-medium ol li a:visited {
+        text-decoration-line: underline;
+    }
+    .padding-medium ol li a:hover {
+        text-decoration-line: underline;
+        text-decoration-style: double;
+        color: #5bc0de;
+    }
+    .text{
+        position: relative;
+    }
+    .text::before {
+        content: "New";
+        position: absolute;
+        right: -25px;
+        color: red;
+        font-size: 12px;
+    }
+    /*Figure 10 */
+    .blocks .gallery-container .box:nth-child(even) {
+        background-color: #eaeaea;
+    }
+    .blocks .gallery-container .box-work p::first-letter {
+        color: black;
+    }
+    .blocks .gallery-container .box {
+        padding: 1%;
+    }
+    /*Figure 11 */
+    .mandatory-field::after {
+        content: "*";
+        color: red;
+        font-weight: bold;
+    }
+    /*Figure 12 */
+    .contact-form {
+        text-align: right;
+    }
+    .contact-form .submit-btn{
+        background: #FFFFFF;
+        border: 1px solid #87cefa;
+        color: #87cefa;
+        padding: 15px 50px;
+        transition-duration: 1s;
+    }
+    .contact-form .submit-btn:hover {
+        background: #87cefa;
+        color: #FFFFFF;
+    }
+    /*Figure 13 */
+    .tm-sidebar .tm-nav-item:hover{
+        background-color: #eaeaea;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
