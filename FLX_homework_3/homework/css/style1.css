@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: normal 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+  background: #fff;
+}
+
+header {
+  background: url(../img/header_background_v1.jpg);
+  height: 100vh;
+  text-transform: uppercase;
+  background-size: 100% 100%;
+  color: #ececec;
+}
+header .btn-top {
+  color: white;
+}
+header .top-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+header .top-wrapper .logo {
+  width: 16%;
+}
+header .top-wrapper .logo img {
+  width: 100%;
+}
+header section {
+  text-align: center;
+}
+header section h1 {
+  margin-top: 280px;
+  padding-bottom: 30px;
+}
+header section a {
+  padding: 13px 50px;
+  background: #02acac;
+  color: #ececec;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+nav {
+  width: 600px;
+  height: 50px;
+  margin: 20px;
+}
+nav a {
+  padding: 5% 10%;
+  color: #ececec;
+  border-right: 2px solid #607d8b;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a:last-child {
+  border: none;
+}
+
+main {
+  margin: 0 auto;
+  width: 960px;
+  font-size: normal 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+}
+main p {
+  color: #000000;
+}
+main .toolbar {
+  text-align: right;
+}
+main .toolbar input {
+  margin-top: 15px;
+  height: 25px;
+  padding-left: 15px;
+  width: 150px;
+}
+main section {
+  text-align: right;
+}
+main section h1:first-child {
+  text-transform: uppercase;
+  color: #000000;
+}
+main section p {
+  color: #000000;
+}
+main section article {
+  display: flex;
+  background: #efefef;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+main section article .post {
+  text-align: left;
+  line-height: 25px;
+  margin-left: 20px;
+}
+main section article .post h3 {
+  border-top: 1px solid gray;
+  color: #0097a7;
+}
+main section article .post-description {
+  color: #e90303;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+main section article button {
+  border: none;
+  background: #02acac;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 15px 70px;
+  color: white;
+}
+
+.about h1 {
+  margin-top: 67px;
+  color: #000000;
+}
+.about p {
+  text-align: left;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.about img {
+  width: 100%;
+}
+
+.contact-form h1 {
+  margin-top: 40px;
+  color: #000000;
+}
+.contact-form h4 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #000000;
+}
+.contact-form form label {
+  color: #02acac;
+}
+.contact-form form .form-label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.contact-form form input {
+  width: 475px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #607d8b;
+}
+.contact-form form textarea {
+  width: 100%;
+  height: 150px;
+  border: 1px solid #607d8b;
+  margin-bottom: 20px;
+}
+.contact-form form button {
+  border: none;
+  padding: 14px 80px;
+  background: #02acac;
+  color: #fff;
+}
+
+footer {
+  margin-top: 25px;
+}
