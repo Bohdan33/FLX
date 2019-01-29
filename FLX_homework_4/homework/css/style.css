@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+body {
+  background-color: #F3F3F3;
+}
+
+.main-wrapper {
+  max-width: 1920px;
+  min-width: 900px;
+}
+
+header {
+  font-style: normal;
+  font-weight: 400;
+  background: url("../img/sample2.jpg") no-repeat center/cover;
+  height: 80vh;
+  width: 100%;
+  color: #ffffff;
+}
+header .buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 150px;
+}
+header a {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 20px 80px;
+  border: 2px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  font-size: 12px;
+  margin-bottom: 200px;
+}
+.header .logo {
+  text-transform: uppercase;
+}
+.header nav {
+  list-style: none;
+}
+.header a {
+  text-decoration: none;
+  border: 0;
+}
+
+.title-header {
+  text-align: center;
+}
+.title-header h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  margin-bottom: 0.5%;
+  font-size: 25px;
+}
+.title-header h1 span {
+  font-size: 70px;
+}
+
+main {
+  font-family: 'Open Sans';
+}
+main .triangle {
+  background: #000000;
+  font-size: 12px;
+  width: 100%;
+}
+main .triangle .text-l {
+  height: 217px;
+  display: block;
+  color: #000;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  background-color: #F3F3F3;
+}
+main .triangle .text-l p {
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
+}
+main .triangle .text-r {
+  position: absolute;
+  top: 83%;
+  right: 3%;
+  width: 48%;
+  color: #ffffff;
+}
+
+.title-p {
+  width: 100%;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.article-top {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.article-top .img-like-date {
+  height: 300px;
+}
+.article-top .img-like-date img {
+  width: 77%;
+  height: 85%;
+  margin-left: 5%;
+}
+.article-top .img-like-date .like {
+  position: absolute;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  top: 3%;
+  right: 54%;
+  padding: 6px 13px;
+}
+.article-top .img-like-date .date {
+  position: absolute;
+  bottom: 19%;
+  left: 4%;
+  color: #ffffff;
+}
+.article-top .post-work {
+  width: 100%;
+  margin-right: 9%;
+}
+.article-top .post-work p {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 7%;
+}
+
+.explore {
+  background: #ffffff;
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.explore .container {
+  padding: 1%;
+  width: 15%;
+  max-width: 350px;
+  box-shadow: 0 2px 3px #000000;
+}
+.explore .btn {
+  margin-top: 3%;
+  background: #097774;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  padding: 3%;
+  border: none;
+}
+
+.subscrible {
+  background: #f3f3f3;
+}
+.subscrible p {
+  padding: 3%;
+}
+.subscrible .subscrible-name {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  margin-right: 1%;
+  margin-bottom: 4%;
+}
+.subscrible .subscrible-name span {
+  font-size: 1.3em;
+  margin-right: 1%;
+}
+.subscrible .subscrible-name form input {
+  padding: 10px;
+  border: 1px solid #000000;
+  background: #E8E8E8;
+}
+.subscrible .subscrible-name form button {
+  cursor: pointer;
+  padding: 11px;
+  background: #097774;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: inherit;
+}
+
+footer {
+  background: #ffffff;
+  padding: 6% 1% 1% 3%;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .footer-container .blocks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+}
+footer .footer-container .blocks .last-tweet {
+  margin: 0 2% 0 2%;
+}
+footer .footer-container .blocks .last-tweet .tweet-date {
+  color: #e8e9ec;
+}
+footer .footer-container h3 {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+footer .footer-container p {
+  color: #9E9E9E;
+}
+footer .footer-container .right-block {
+  width: 30%;
+}
+footer .footer-container .right-block .form {
+  margin: 4% 1% 0 0;
+}
+footer .footer-container .right-block .form input {
+  height: 37px;
+  width: 30%;
+  border: 1px solid #000000;
+  color: #000000;
+  background: #FFFFFF;
+}
+footer .footer-container .right-block .form button {
+  cursor: pointer;
+  padding: 10px;
+  background: #097774;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: inherit;
+}
+footer .footer-menu {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #F0F0F0;
+}
+footer .footer-menu p {
+  font-size: 10px;
+  color: #E8E8E8;
+}
+footer .footer-menu nav {
+  display: inline-block;
+  align-items: center;
+}
+footer .footer-menu nav ul {
+  display: flex;
+}
+footer .footer-menu nav ul li {
+  list-style-type: none;
+}
+footer .footer-menu nav ul a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 25px;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
